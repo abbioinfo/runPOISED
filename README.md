@@ -10,4 +10,12 @@ Raw unlabeled POISED dataset files in FCS 3.0 format and normalized labelled CSV
 # 4. CyAnno: Step by Step instructions
 Please follow to the instructions to train the CyAnno models using just 3 POISED CyTOF samples and label the cell from 20 different POISED CyTOF samples. In theory, 3 or more samples should be enough to train CyAnno in order to label the live cells from (any number of) "unlabelled" samples, given training samples are not significantly different from "unlabelled" samples, in terms of marker expression profile due to batch effects, external stimulation(s) or any other factor.
 
-### 4.1 Step 1: Clone the repository and obtain the POISED dataset
+### 4.1 Step 1: Clone the repository and download the POISED dataset
+
+```
+git clone https://github.com/abbioinfo/runPOISED.git
+cd runPOISED
+
+
+```
+
