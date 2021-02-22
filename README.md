@@ -21,6 +21,10 @@ Please follow to the instructions to train the CyAnno models using just 3 POISED
 **MacPorts**: 
 ```port install git-lfs```
 
+**ubuntu/debian**: 
+```sudo apt install git-lfs```
+
+
 **ubuntu/debian**:
 ```
 sudo apt install git-lfs
