@@ -13,7 +13,7 @@ Raw unlabeled POISED dataset files in FCS 3.0 format and normalized labelled CSV
 # 4. CyAnno: Step by Step instructions
 Please follow to the instructions to train the CyAnno models using just 3 POISED CyTOF samples and label the cell from 20 different POISED CyTOF samples. In theory, 3 or more samples should be enough to train CyAnno in order to label the live cells from (any number of) "unlabelled" samples, given training samples are not significantly different from "unlabelled" samples, in terms of marker expression profile due to batch effects, external stimulation(s) or any other factor.
 
-*Important*: Make sure if you have installed [Git-LFS](https://git-lfs.github.com/) installed in $PATH of your working directory. It allows you to clone large GitHub files/directories. You may use one of the following commands to install to Git-LFS:
+*Important*: Make sure if you have [Git-LFS](https://git-lfs.github.com/) installed in $PATH of your working directory. It allows you to clone large GitHub files/directories. You may use one of the following commands to install to Git-LFS:
 
 **Homebrew**: 
 ```brew install git-lfs```
