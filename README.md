@@ -1,4 +1,5 @@
-vignette. Replicating results of orignal manuscript from POISED dataset
+## Vignette
+Replicating results of orignal manuscript from POISED dataset
 
 # 1. About POISED dataset
 POISED dataset (Chinthrajah et al., 2019)) includes 30 CyTOF samples from human PBMCs of peanut-allergic individuals, for testing or benchmarking the CyAnno algorithm. For more information please refer [#1](https://www.thelancet.com/pdfs/journals/lancet/PIIS0140-6736(19)31793-3.pdf) and [#2](https://www.biorxiv.org/content/10.1101/2020.08.28.272559v1) 
