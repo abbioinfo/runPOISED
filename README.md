@@ -15,10 +15,17 @@ Please follow to the instructions to train the CyAnno models using just 3 POISED
 
 *Important*: Make sure if you have installed [Git-LFS](https://git-lfs.github.com/) installed in $PATH of your working directory. You may use one of the following commands to install to Git-LFS:
 
-Homebrew: ```brew install git-lfs```
-MacPorts: ```port install git-lfs```
-ubuntu/debian:```curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
-sudo apt install git-lfs```
+**Homebrew**: 
+```brew install git-lfs```
+
+**MacPorts**: 
+```port install git-lfs```
+
+**ubuntu/debian*:
+```
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+sudo apt install git-lfs
+```
 
 ### 4.1 Step 1: Clone the repository and download the POISED dataset
 
