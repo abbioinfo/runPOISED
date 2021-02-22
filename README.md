@@ -25,10 +25,7 @@ Please follow to the instructions to train the CyAnno models using just 3 POISED
 ```sudo apt install git-lfs```
 
 
-**ubuntu/debian**:
-```
-sudo apt install git-lfs
-```
+More details about the installation can be found [here](https://github.com/git-lfs/git-lfs).
 
 ### 4.1 Step 1: Clone the repository and download the POISED dataset
 
