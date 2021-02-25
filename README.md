@@ -20,7 +20,7 @@ Before you begin please install [gdown](https://github.com/wkentaro/gdown) pytho
 ``` pip install gdown ```   or   ```conda install -c conda-forge gdown```
 
 Now clone the repository and using the python script download: 
-1. 30 FCS files, one for each sample from POISED dataset 
+1. 30 FCS files, one for each sample of POISED dataset 
 2. Corresponding live cell labels (manually gated) for each cell of every sample.
 3. Manually gated FCS files, one for each cell type from every sample.
 
