@@ -39,14 +39,14 @@ Note: To replicate the results of orignal CyAnno article it is it is recommended
 
 ```
 ##### Mandatory ######
-handgatedFileinfo='TrainingDataset_manuallygated.csv'  ## [Mandatory] hand-gated cells to be used for training
-LiveFileinfo= 'TrainingDataset_live.csv'    	         ## [Mandatory] All Live cells of the samples used for handgating (i.e. training); these samples will also be labelled
+handgatedFileinfo='TrainingDataset_manuallygated.csv' ## [Mandatory] hand-gated cells to be used for training
+LiveFileinfo= 'TrainingDataset_live.csv'    ## [Mandatory] All Live cells of the samples used for handgating (i.e. training); these samples will also be labelled
 
-unlabelledDataset= 'TestingDataset_live.csv'    		   ## [Mandatory] All Live cells to be tested for annotation, i.e. for cell type identification
+unlabelledDataset= 'TestingDataset_live.csv'  ## [Mandatory] All Live cells to be tested for annotation, i.e. for cell type identification
 
 relevantMarkers = ['CD19','CD49b','CD4','CD8','CD20','LAG3','CD123','CD3','HLA.DR','CD69',
                        'CD33','CD11c','CD14','CD127','CCR7','CD25','CD56','TCRgd','CD16',
-                       'CD40L','CD45RA','CD27']        ## [Mandatory] lineage markers used for hand-gated; based on column names in FCS/CSV file 
+                       'CD40L','CD45RA','CD27'] ## [Mandatory] lineage markers used for hand-gated; based on column names in FCS/CSV file 
 
 ProjectName = "POISED" 
 
@@ -84,7 +84,6 @@ In addition, \_model and \_other folder contains the session files, important if
 
 ```
 Rscript plot.R [PATH TO POISED PROJECT DIRECTORY]
-
 ```
 The script will compute the F1 score measure of similarity between expected vs predicted labels. Higher the F1 (ranges between 0.0 to 1.0), better the similarity for the given sample or cell type. The plot should look like this
 
