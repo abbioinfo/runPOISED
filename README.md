@@ -28,7 +28,7 @@ Note: Here we have used FCS files, however, you can use both CSV or FCS files as
 ```
 git clone https://github.com/abbioinfo/runPOISED.git
 cd runPOISED
-python download.py
+python Download.py
 ```
 
 ### 4.2 Step 2: Check the arguments and execute CyAnno
