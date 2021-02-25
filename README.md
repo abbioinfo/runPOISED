@@ -53,6 +53,44 @@ cd createinput
 Rscript CreateInput4CyAnno.R
 ```
 
+Ok. Enough of the background. Lets excecute CyAnno from the main working directory:
+
+```
+
+python CyAnno.py
+
+```
+
+You can monitor the log file within $PROJECTNAME (e.g. POISED_XXXYYYXX). This may take a while (6-8 hours), depending upon the hardware.
+
+### Step 4.3 Check the output files
+The most important output files are *XXX_labelled.csv* file. Each CSV file contains (normalized) marker expression profile for a given sample. The last column contains the predicted labels.
+
+In addition, \_model and \_other folder contains the session files, important if you want to annotate other samples using the same models.
+
+### Step 4.3 Compute and plot sample F1 and cell type sepcific F1
+
+(optional) Since, we also have the manually gated labels available for our 20 test samples (in POISED_lables/ directory). we will check how well CyAnno performed in annotating the cells of the test sample. This testing is only for evaluating CyAnno and is not required for your own dataset. To plot F1 accuracy score, execute:
+
+```
+Rscript plot.R [PATH TO POISED PROJECT DIRECTORY]
+
+```
+The script will compute the F1 score measure of similarity between expected vs predicted labels. Higher the F1 (ranges between 0.0 to 1.0), better the similarity for the given sample or cell type. The plot should look like this
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
