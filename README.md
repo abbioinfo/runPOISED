@@ -19,6 +19,11 @@ Before you begin please install gdown python library.
 
 ``` pip install gdown ```   or   ```conda install -c conda-forge gdown```
 
+Now clone the repository and using the python script download: 
+1. 30 FCS files, one for each sample from POISED dataset 
+2. Corresponding live cell labels (manually gated) for each cell of every sample.
+3. Manually gated FCS files, one for each cell type from every sample.
+
 ```
 git clone https://github.com/abbioinfo/runPOISED.git
 cd runPOISED
