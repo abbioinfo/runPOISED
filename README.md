@@ -45,7 +45,7 @@ Note: To replicate the results of orignal CyAnno article it is it is recommended
 Now we will label 20 FCS files with the manually gated FCS files belonging to only 3 samples (i.e. training dataset). These 3 samples are randomly selected from remianing 10 samples. The list of files used in training dataset are available in 
 1. "TrainingDataset_live.csv" : Containing list of 3 FCS files (training samples) of live cells from which 22 cell types were manually gated.
 2. "TrainingDataset_manuallygated.csv" : Containing list of manually gated (22 * 3) FCS files, i.e. 22 FCS files (one for each cell type) from 3 selected training sample.
-3. "TestingDataset_live.csv": Containing the list of 20 randomly select FCS files of live cells for cell labeling.
+3. "TestingDataset_live.csv": Containing the list of 20 randomly select (non-training) FCS files of live cells for cell labeling.
 
 
 
