@@ -69,7 +69,7 @@ python CyAnno.py
 
 ```
 
-You can monitor the log file within $PROJECTNAME (e.g. POISED_XXXYYYXX). This may take a while (6-8 hours), depending upon the hardware. If you want faster execution change method from 'e' to 'x' . Here 'x' stands for XGboost and 'e' stands for 'ensemble'.
+You can monitor the log file within $PROJECTNAME (e.g. POISED_XXXYYYXX). This may take a while (6-8 hours), depending upon the hardware. If you want faster execution change method (in CyAnno.py) from 'e' to 'x' . Here 'x' stands for XGboost and 'e' stands for 'ensemble'.
 
 ### Step 4.3 Check the output files
 The most important output files are *XXX_labelled.csv* file. Each CSV file contains (normalized) marker expression profile for a given sample. The last column contains the predicted labels.
