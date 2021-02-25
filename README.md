@@ -15,7 +15,7 @@ Please follow to the instructions to train the CyAnno models using just 3 POISED
 
 ### 4.1 Step 1: Clone the repository and download the POISED dataset
 
-Before you begin please install gdown python library. 
+Before you begin please install [gdown](https://github.com/wkentaro/gdown) python library. 
 
 ``` pip install gdown ```   or   ```conda install -c conda-forge gdown```
 
