@@ -47,7 +47,11 @@ Now we will label 20 FCS files with the manually gated FCS files belonging to on
 2. "TrainingDataset_manuallygated.csv" : Containing list of manually gated (22 * 3) FCS files, i.e. 22 FCS files (one for each cell type) from 3 selected training sample.
 3. "TestingDataset_live.csv": Containing the list of 20 randomly select (non-training) FCS files of live cells for cell labeling.
 
-
+(Optional) If you want to recreate a different training and test dataset. Please check out the R script within the folder "createinput". Execute The R scipt using following commands:
+```
+cd createinput
+Rscript CreateInput4CyAnno.R
+```
 
 
 
