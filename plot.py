@@ -47,7 +47,6 @@ for file in os.listdir(dname):
                 d = {'ID': [ID],'CellType':ct, 'F1': [F1perCT], 'Dataset': 'POISED'}
                 CTF1 = pa.concat([CTF1, pa.DataFrame(d)], axis=0)
 
-ct = 'CD4_PeaReactive'
 
 # Sample F1 ## Usual boxplot
 ax = sns.boxplot(x='Dataset', y='F1', data=sampleF1)
