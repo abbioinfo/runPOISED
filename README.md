@@ -81,7 +81,7 @@ In addition, \_model and \_other folder contains the session files, important if
 (optional) Since, we also have the manually gated labels available for our 20 test samples (in POISED_lables/ directory). we will check how well CyAnno performed in annotating the cells of the test sample. This testing is only for evaluating CyAnno and is not required for your own dataset. To plot F1 accuracy score, execute:
 
 ```
-Rscript plot.R [PATH TO POISED PROJECT DIRECTORY]
+Rscript plot.py [PATH TO POISED PROJECT DIRECTORY]
 ```
 The script will compute the F1 score measure of similarity between expected vs predicted labels. Higher the F1 (ranges between 0.0 to 1.0), better the similarity for the given sample or cell type. The plot should look like this
 
