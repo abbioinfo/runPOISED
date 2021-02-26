@@ -4,15 +4,22 @@
 Created on Fri Feb 26 11:38:49 2021
 
 @author: abhinav kaushik
+
+Usage:
+	python plot.py [Path to OUTPUT DIR]
+
+Example:
+	python plot.py POISED_26_2_2021_12_37/
+
 """
 import os 
 import pandas as pa
 import numpy as np
 from sklearn.metrics import f1_score
 import seaborn as sns
+import sys
 
-
-dname = "POISED_26_2_2021_12_37/"
+dname = str(sys.argv[1])
 sampleF1 = pa.DataFrame([])
 CTF1 = pa.DataFrame([])
 
