@@ -1,4 +1,4 @@
-fpath,sample_id,Source,ID
-/Users/abhinavkaushik/Google_Drive/CyTOF_cell_annotation/Preservation_analysis/handgated_POISED_BL_dropouts/AnnotateLiveFCS/LiveCells/export_P063-000-Pea.fcs,P063,Pea,P063_Pea
-/Users/abhinavkaushik/Google_Drive/CyTOF_cell_annotation/Preservation_analysis/handgated_POISED_BL_dropouts/AnnotateLiveFCS/LiveCells/export_P116-000-Pea.fcs,P116,Pea,P116_Pea
-/Users/abhinavkaushik/Google_Drive/CyTOF_cell_annotation/Preservation_analysis/handgated_POISED_BL_dropouts/AnnotateLiveFCS/LiveCells/export_P015-000-Un.fcs,P015,Un,P015_Un
+fpath,ID
+POISED/LiveCells/export_P063-000-Pea.fcs,P063_Pea
+POISED/LiveCells/export_P117-000-Pea.fcs,P117_Pea
+POISED/LiveCells/export_P117-000-Un.fcs,P117_Un
