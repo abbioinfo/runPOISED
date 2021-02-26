@@ -74,7 +74,7 @@ You can monitor the log file within $PROJECTNAME (e.g. POISED_XXXYYYXX). This ma
 ### Step 4.3 Check the output files
 The most important output files are *XXX_labelled.csv* file. Each CSV file contains (normalized) marker expression profile for a given sample. The last column contains the predicted labels.
 
-In addition, \_model and \_other folder contains the session files, important if you want to annotate other samples using the same models.
+In addition, \_model and \_other folder contains the session files, important if you want to annotate other samples later using the same models.
 
 ### Step 4.3 Compute and plot sample F1 and cell type sepcific F1
 
