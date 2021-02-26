@@ -85,6 +85,8 @@ Rscript plot.py [PATH TO POISED PROJECT DIRECTORY]
 ```
 The script will compute the F1 score measure of similarity between expected vs predicted labels. Higher the F1 (ranges between 0.0 to 1.0), better the similarity for the given sample or cell type. The plot should look like this
 
+![plot](./_img/F1scorePerCellTypePOISED.png)
+
 
 
 
