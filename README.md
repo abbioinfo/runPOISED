@@ -88,7 +88,7 @@ The script will compute the F1 score measure of similarity between expected vs p
 ![plot](./_img/F1scorePerPOISEDSample.png)
 
 
-Whereas, for cell type specific F1 score, the plot should look like this 
+Here each dot represent F1 score (expected vs observed labels) for each sample in POISED dataset we evaluated (n=20). Similarly, for each cell type, F1 score per sample should look like this 
 
 ![plot](./_img/F1scorePerCellTypePOISED.png)
 
