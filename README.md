@@ -62,7 +62,7 @@ Now we will label 20 FCS files using the manually gated FCS files (one for each 
 # example:
 python getMarkerName.py ./POISED/LiveCells/export_P015-000-Un.fcs
 ```
-This will give you the clean list of marker names from which you can choose your relevant set of lineage markers for CyAnno
+This will give you the clean list of marker names from which you can choose your relevant set of lineage markers for CyAnno. Here we assumed that all FCS files has same marker panel and processed under comparable conditions.
 
 (Optional) If you want to recreate a different training and test dataset. Please check out the R script within the folder "createinput". Execute The R scipt using following commands:
 ```
