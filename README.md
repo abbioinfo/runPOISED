@@ -55,20 +55,14 @@ Now we will label 20 FCS files using the manually gated FCS files (one for each 
 2. "TrainingDataset_manuallygated.csv" : Containing list of manually gated (22 * 3) FCS files, i.e. 22 FCS files (one for each cell type) from 3 selected training samples.
 3. "TestingDataset_live.csv": Containing the list of 20 randomly selected (non-training) FCS files of live cells for cell labeling.
 
-(optional) To access the marker names in your FCS file for CyAnno (for the argument: relevantMarkers), please check you FCS using foloowing command
+(optional) To access the marker names in your FCS file for CyAnno (for the argument: relevantMarkers), please check you FCS using following command
 
 ```
 # python getMarkerName.py [Path to FCS file]
 # example:
 python getMarkerName.py ./POISED/LiveCells/export_P015-000-Un.fcs
 ```
-This will give you the clean list of marker names from which you can choose your relevant set of lineage markers for CyAnno. Here we assumed that all FCS files has same marker panel and processed under comparable conditions.
-
-(Optional) If you want to recreate a different training and test dataset. Please check out the R script within the folder "createinput". Execute The R scipt using following commands:
-```
-cd createinput
-Rscript CreateInput4CyAnno.R
-```
+This will give you the clean list of marker names from which you can choose your relevant set of lineage markers for CyAnno. Here we assumed that all FCS files has same marker panel.
 
 Ok. Enough of the background. Lets excecute CyAnno from the main working directory:
 
@@ -79,6 +73,15 @@ python CyAnno.py
 ```
 
 You can monitor the log file within $PROJECTNAME (e.g. POISED_XXXYYYXX). This may take a while (6-8 hours), depending upon the hardware. If you want faster execution change method (in CyAnno.py) from 'e' to 'x' . Here 'x' stands for XGboost and 'e' stands for 'ensemble'.
+
+
+(Optional) For POISED dataset, if you want to recreate a different training and test dataset, then please check out the R script within the folder "createinput". Execute the R scipt using following commands:
+```
+cd createinput
+Rscript CreateInput4CyAnno.R
+```
+
+This will create a different training and test set for CyAnno.
 
 ### Step 4.3 Check the output files
 The most important output files are *XXX_labelled.csv* file. Each CSV file contains (normalized) marker expression profile for a given sample. The last column contains the predicted labels.
