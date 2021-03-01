@@ -55,7 +55,7 @@ Now we will label 20 FCS files using the manually gated FCS files (one for each 
 2. "TrainingDataset_manuallygated.csv" : Containing list of manually gated (22 * 3) FCS files, i.e. 22 FCS files (one for each cell type) from 3 selected training samples.
 3. "TestingDataset_live.csv": Containing the list of 20 randomly selected (non-training) FCS files of live cells for cell labeling.
 
-(optional) To access the marker names in your FCS file for CyAnno (argument: relevantMarkers), please check you FCS using foloowing command
+(optional) To access the marker names in your FCS file for CyAnno (for the argument: relevantMarkers), please check you FCS using foloowing command
 
 ```
 # python getMarkerName.py [Path to FCS file]
