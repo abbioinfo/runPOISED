@@ -52,10 +52,10 @@ ProjectName = "POISED"
 
 Now we will label 20 FCS files using the manually gated FCS files (one for each cell type) belonging to only 3 samples (i.e. training dataset). These 3 samples are randomly selected from remaining 10 samples. The mandatory files for CyAnno are:
 1. "TrainingDataset_live.csv" : Containing list of 3 FCS files (training samples) of live cells from which 22 cell types were manually gated.
-2. "TrainingDataset_manuallygated.csv" : Containing list of manually gated (22 * 3) FCS files, i.e. 22 FCS files (one for each cell type) from 3 selected training sample.
+2. "TrainingDataset_manuallygated.csv" : Containing list of manually gated (22 * 3) FCS files, i.e. 22 FCS files (one for each cell type) from 3 selected training samples.
 3. "TestingDataset_live.csv": Containing the list of 20 randomly selected (non-training) FCS files of live cells for cell labeling.
 
-(optinal) To access the marker names in your FCS file for CyAnno (argument: relevantMarkers), please check you FCS using foloowing command
+(optional) To access the marker names in your FCS file for CyAnno (argument: relevantMarkers), please check you FCS using foloowing command
 
 ```
 # python getMarkerName.py [Path to FCS file]
