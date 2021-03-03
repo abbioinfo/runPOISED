@@ -41,8 +41,12 @@ for file in os.listdir(dname):
         for ct in CTs:
             if ct != 'Unknown':
                 print ("reading.."+str(ct))
-                ExpCTY = ExpectedY[ExpectedY==ct]
-                PredCTY = predictedY[ExpectedY==ct]
+		ei = np.where(ExpectedY==ct)[0]
+		pi = np.where(predictedY==ct)[0]
+		a = np.array([ei, pi])
+		indexx = list(np.unique(a))
+                ExpCTY = ExpectedY[indexx]
+                PredCTY = predictedY[indexx]
                 F1perCT = f1_score(ExpCTY,PredCTY,average="weighted")
                 d = {'ID': [ID],'CellType':ct, 'F1': [F1perCT], 'Dataset': 'POISED'}
                 CTF1 = pa.concat([CTF1, pa.DataFrame(d)], axis=0)
